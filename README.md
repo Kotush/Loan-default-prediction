@@ -4,13 +4,13 @@ This project aims to predict the likelihood of a loan default using various mach
 
 ---
 
-## 📊 Problem Statement
+## Problem Statement
 
 The goal is to accurately classify whether a borrower will default on their loan, using features like FICO score, loan amount, credit history, and more. The ability to detect defaults early can significantly reduce financial risk for lenders.
 
 ---
 
-## 🧪 Models Overview
+## Models Overview
 
 ### 1. Baseline Model
 - **Algorithm**: Logistic Regression
@@ -37,7 +37,7 @@ The goal is to accurately classify whether a borrower will default on their loan
 
 ---
 
-## 📈 Comparison
+##  Comparison
 
 | Metric                  | Baseline (LogReg) | Challenger (RF) |
 |------------------------|-------------------|------------------|
@@ -48,11 +48,11 @@ The goal is to accurately classify whether a borrower will default on their loan
 | ROC AUC                | Lower             | **High (~1.0)**  |
 | PR AUC                 | Lower             | **0.82**         |
 
-✅ **Challenger model clearly outperformed the baseline**, particularly in precision-recall balance, indicating strong capability in identifying true defaults.
+**Challenger model clearly outperformed the baseline**, particularly in precision-recall balance, indicating strong capability in identifying true defaults.
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. Clone the repository
 2. Install required libraries
@@ -62,7 +62,7 @@ The goal is to accurately classify whether a borrower will default on their loan
 
 ---
 
-## 🔍 Next Steps
+##  Next Steps
 
 - Implement XGBoost or LightGBM as a third comparison
 - Hyperparameter tuning
@@ -70,7 +70,7 @@ The goal is to accurately classify whether a borrower will default on their loan
 - Explore SHAP values for explainability
 
 
-## 💡 Key Takeaway
+##  Key Takeaway
 
 The Random Forest challenger model demonstrates high predictive power, especially for unbalanced datasets like loan defaults. Its use of ensemble learning helps capture complex patterns that logistic regression may miss.
 
